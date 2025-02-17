@@ -1,0 +1,15 @@
+question,solution,model,temperature
+"Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?","**Step 1: Calculate the number of clips Natalia sold in April.**
+
+48 friends x 2 clips per friend = 96 clips
+
+**Step 2: Calculate the number of clips Natalia sold in May.**
+
+96 clips (April) x 0.5 = 48 clips
+
+**Step 3: Add the number of clips sold in April and May.**
+
+96 + 48 = 144
+
+Therefore, Natalia sold **144 clips** altogether in April and May.",gemma:2b,0.7
+"Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",,llama2,0.7
