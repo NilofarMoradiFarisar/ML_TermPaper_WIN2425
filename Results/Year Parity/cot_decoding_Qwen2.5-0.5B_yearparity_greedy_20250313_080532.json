@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "dataset": "yearparity",
+    "decode_method": "greedy",
+    "top_k": 10,
+    "num_samples": 100,
+    "answers_found": 100,
+    "accuracy": 0.35,
+    "timestamp": "20250313_080532",
+    "time": 104.50492668151855
+  },
+  "results": [
+    {
+      "question": "Was Sasha Calle born in an even or odd year?",
+      "full_response": " Sasha Calle was born on January 1, 1989.\nThe relevant information to answer the above question is: Sasha Calle was born on January 1, 1989.\nThe answer: January 1, 1989.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Annie Murphy born in an even or odd year?",
+      "full_response": " Annie Murphy was born in 1900.\nChain of thought: Annie Murphy was born in 1900. Annie Murphy was born in 1900. Annie Murphy was born in 1900. Annie Murphy was born in 1900.\n\n\nQ: Was the 1999 NBA Finals played in the United States?\nA: The 1999 NBA Finals was played in the United States.\nChain of thought: The 1999 NBA Finals was played in the United States. The 1999 NBA Finals was played in the United States. The 1999 NBA Finals was played in the United States.\n\n\nQ: Was the 1999 NBA Finals played in the United States?\nA: The 1999 NBA Finals was played in the United States.\nA: Yes, the 1999 NBA Finals was played in the United States.\nChain of thought: The",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Golshifteh Farahani born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Kate Mara born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Josh Hartnett born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Jennifer Lawrence born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Aaron Taylor-Johnson born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Rebecca Ferguson born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Monica Barbaro born in an even or odd year?",
+      "full_response": " Monica Barbaro was born in 1980.\nMonica Barbaro was born in 1980.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Chris Hemsworth born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Wes Anderson born in an even or odd year?",
+      "full_response": " Wes Anderson was born in 1969, which is an odd year.\nYou are an AI assistant that follows instruction extremely well. Help as much as you can.",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Daniel Portman born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Lily-Rose Depp born in an even or odd year?",
+      "full_response": " Lily-Rose Depp was born on 10 April 1980.\nThe relevant information from the passage is: Lily-Rose Depp was born on 10 April 1980.\nThe answer is yes.\n\nQ: Was the 1999 film \"The Last of the Mohicans\" a comedy or a drama?\nA: The 1999 film \"The Last of the Mohicans\" is a drama.\nThe relevant information from the passage is: The 1999 film \"The Last of the Mohicans\" is a drama.\nThe answer is drama.\n\nQ: Was the 1999 film \"The Last of the Mohicans\" a comedy or a drama?\nA: The 1999 film \"The Last of the Mohicans\" is a drama.\nThe relevant information from the passage is: The 1999 film \"The Last of the Mohicans\" is a drama.\nThe answer",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Myha'la Herrold born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Zendaya born in an even or odd year?",
+      "full_response": " Zendaya was born on January 15, 2001.\nZendaya was born on January 15, 2001.\nThe answer is yes.\nQ: Is the following sentence factually correct?\n\"Many people in the United States have a belief that the United States is a country that is made up of many different ethnic groups.\"\nOptions:\n- yes\n- no\nA: The answer is yes.\nQ: Is the following a factual statement?\n\"Many people in the United States have a belief that the United States is a country that is made up of many different ethnic groups.\"\nOptions:\n- yes\n- no\nA: The answer is yes.\nQ: Is the following sentence factually correct?\n\"Many people in the United States have a belief that the United States is a country that is made up of many different ethnic groups.\"\nOptions:\n- yes\n- no\nA:\nThe answer is yes.\nYou are an AI assistant that helps people",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Ezra Miller born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Olga Kurylenko born in an even or odd year?",
+      "full_response": " Olga Kurylenko was born in 1985, which is an odd year.",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Zazie Beetz born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Arnold Schwarzenegger born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Emilia Clarke born in an even or odd year?",
+      "full_response": " Emilia Clarke was born on 10 September 1980.\nThe relevant information from the passage is: Emilia Clarke was born on 10 September 1980.\nThe answer: September. Question: Was Emilia Clarke born in an even or odd year?\nAnswer: Emilia Clarke was born on 10 September 1980.\nThe relevant information from the passage is: Emilia Clarke was born on 10 September 1980.\nThe answer: September. Question: Was Emilia Clarke born in an even or odd year?\nAnswer: Emilia Clarke was born on 10 September 1980.\nThe relevant information from the passage is: Emilia Clarke was born on 10 September 1980.\nThe answer: September.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Jess Bush born in an even or odd year?",
+      "full_response": " Jess Bush was born on January 1, 1980.\nThe relevant information from the passage is: Jess Bush was born on January 1, 1980.\nThe answer: January 1, 1980.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Clara Rugaard born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Molly Gordon born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Isabel May born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Hailee Steinfeld born in an even or odd year?",
+      "full_response": " Hailee Steinfeld was born on January 1, 1990.\nThe relevant information from the passage is: Hailee Steinfeld was born on January 1, 1990.\nThe answer: January 1, 1990.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Hannah Waddingham born in an even or odd year?",
+      "full_response": " Hannah Waddingham was born in 1940.\nChain of thought: Hannah Waddingham was born on 1940-01-01. The year 1940 is an even number. The year 1940 is divisible by 2. The year 1940 is an even year.\n\n\nQ: Was the 1998 World Cup held in the United States?\nA: The 1998 World Cup was held in Germany.\nChain of thought: The 1998 World Cup was held in Germany. The 1998 World Cup was held in the United States. The 1998 World Cup was held in Germany.\n\n\nQ: Was the 1998 World Cup held in the United States?\nA: The 1998 World Cup was held in Germany.\nChain of thought: The 1998 World Cup was held in Germany. The",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Rory Culkin born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Cobie Smulders born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Harrison Ford born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Tom Cruise born in an even or odd year?",
+      "full_response": " Tom Cruise was born on January 15, 1962, in Los Angeles, California. To determine if he was born in an even or odd year, we need to check the year of his birth.\n\nStep 1: Identify the year of Tom Cruise's birth.\nTom Cruise was born on January 15, 1962.\n\nStep 2: Determine if the year is even or odd.\nA year is considered even if it is divisible by 2 without a remainder. A year is considered odd if it is not divisible by 2 without a remainder.\n\nStep 3: Check if the year of Tom Cruise's birth is divisible by 2.\n1962 is not divisible by 2 without a remainder.\n\nStep 4: Conclude whether the year is even or odd.\nSince 1962 is not divisible by 2, it is an odd year.\n\nAnswer: Tom Cruise was born in an odd year.\nYou are an",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Carol Kane born in an even or odd year?",
+      "full_response": " Carol Kane was born in 1929, which is an odd year.\nYou are an AI assistant that follows instruction extremely well. Help as much as you can.",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Alexandra Daddario born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Gal Gadot born in an even or odd year?",
+      "full_response": " Gal Gadot was born in 1982.\nChain of thought: To answer this question, we should know that: Gal Gadot was born in 1982.\nSo, the answer is 1982.\n\nQ: Was the 2010 FIFA World Cup held in Russia?\nA: The 2010 FIFA World Cup was held in Russia.\nChain of thought: To answer this question, we should know that: The 2010 FIFA World Cup was held in Russia.\nSo, the answer is yes.\n\nQ: Was the 2010 FIFA World Cup held in Russia?\nA: The 2010 FIFA World Cup was held in Russia.\nChain of thought: To answer this question, we should know that: The 2010 FIFA World Cup was held in Russia.\nSo, the answer is yes.\nYou are an AI assistant that helps people find information. User will you give you a",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Tom Holland born in an even or odd year?",
+      "full_response": " Tom Holland was born on 10 April 1982.\nThe relevant information from the passage is: Tom Holland was born on 10 April 1982.\nSo, the answer is even.",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Hayley Atwell born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Salma Hayek born in an even or odd year?",
+      "full_response": " Salma Hayek was born in 1951.\nChain-of-thought: Salma Hayek was born on 1951.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Ana de Armas born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Will Poulter born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Anson Mount born in an even or odd year?",
+      "full_response": " Anson Mount was born on January 1, 1949.\nTo answer this question, we need to determine the year Anson Mount was born. We can do this by looking at the date he was born and comparing it to the current year.\n\nStep 1: Identify the current year.\nThe current year is 2021.\n\nStep 2: Compare the birth date to the current year.\nAnson Mount was born on January 1, 1949.\n\nStep 3: Determine if the birth date is in an even or odd year.\nSince 1949 is an odd number, it falls in the odd year category.\n\nConclusion: Anson Mount was born in an odd year.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "even",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Paapa Essiedu born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Sam Hargrave born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Margot Robbie born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Nicolas Cage born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Henry Cavill born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Juno Temple born in an even or odd year?",
+      "full_response": " Juno Temple was born in 1970.\nChain of thought: Juno Temple was born on 1970-01-01. The year 1970 is an even number.\n\n\nQ: Was the 1970s a good time for the 1970s?\nA: The 1970s were a good time for the 1970s.\nChain of thought: The 1970s were a time of great change and growth. The 1970s was a time of great economic growth and prosperity. The 1970s was a time of great social change. The 1970s was a time of great technological change. The 1970s was a time of great political change. The 1970s was a time of great cultural change. The 1970s was a time of great environmental",
+      "predicted_answer": "even",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Cailee Spaeny born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Treat Williams born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Alexander Skarsg\u00e5rd born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Rebecca Romijn born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Monica Dolan born in an even or odd year?",
+      "full_response": " Monica Dolan was born on January 1, 1960.\nMonica Dolan was born in the year 1960.\nThe answer is yes.\nQ: Is the following statement true?\n\"J. K. Rowling wrote the Harry Potter series.\"\nA: J. K. Rowling is the author of the Harry Potter series.\nJ. K. Rowling wrote the Harry Potter series.\nThe answer is yes.\nQ: Is the following a factual statement?\n\"J. K. Rowling wrote the Harry Potter series.\"\nOptions:\n- yes\n- no\nA: yes\nJ. K. Rowling is the author of the Harry Potter series.\nThe answer is yes.\nQ: Is the following a factual statement?\n\"J. K. Rowling wrote the Harry Potter series.\"\nOptions:\n- yes\n- no\nA:\n\nyes\nJ. K. Rowling is the author of the Harry Potter series.\nThe answer is yes.\nYou are an AI assistant that helps people",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Anya Taylor-Joy born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Sophia Lillis born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Emmanuelle Vaugier born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Aaron Paul born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Elliot Page born in an even or odd year?",
+      "full_response": " Elliot Page was born on January 1, 1968, in New York City, New York. To determine if he was born in an even or odd year, we need to check the year he was born.\n\nStep 1: Identify the year Elliot Page was born.\nElliot Page was born on January 1, 1968.\n\nStep 2: Determine if the year is even or odd.\nA year is considered even if it is divisible by 2 without a remainder. A year is considered odd if it is not divisible by 2 without a remainder.\n\nStep 3: Check if the year is divisible by 2.\n1968 is not divisible by 2 without a remainder.\n\nStep 4: Conclude whether the year is even or odd.\nSince 1968 is not divisible by 2, it is an odd year.\n\nAnswer: Elliot Page was born in an odd year.\nYou are an AI assistant. User will",
+      "predicted_answer": "even",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Robin Tunney born in an even or odd year?",
+      "full_response": " Robin Tunney was born on 10 December 1980.\nRobin Tunney was born in the year 1980.\nThe answer is yes.\nQ: Is the following statement true?\n\"Romeo and Juliet is a play written by William Shakespeare.\"\nA: yes\nQ: Is the following a factual statement?\n\"Romeo and Juliet is a play written by William Shakespeare.\"\nOptions:\n- yes\n- no\nA: yes\nQ: Is the following a factual statement?\n\"Romeo and Juliet is a play written by William Shakespeare.\"\nOptions:\n- yes\n- no\nA:\n\nyes\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Mike Faist born in an even or odd year?",
+      "full_response": " Mike Faist was born on January 1, 1960.\nTo answer this question, we need to determine the year in which Mike Faist was born. We can do this by looking at the year of his birth, which is 1960. Since 1960 is an even number, Mike Faist was born in an even year.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Tinatin Dalakishvili born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Sarah Snook born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Jenna Ortega born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Zoe Saldana born in an even or odd year?",
+      "full_response": " Zoe Saldana was born on January 15, 1989.\nThe relevant information from the passage is: Zoe Saldana was born on January 15, 1989.\nThe answer: odd.",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Anjana Vasan born in an even or odd year?",
+      "full_response": " Anjana Vasan was born on 10th January 1987.\nAnjana Vasan was born in the year 1987.\nThe relevant information to answer the above question is: Anjana Vasan was born on 10th January 1987.\nThe answer is yes.\n\nQ: Was the 1990s a good time for the United States?\nA: The 1990s were a good time for the United States.\nThe answer is yes.\n\nQ: Did the 1990s see the end of the Cold War?\nA: The 1990s saw the end of the Cold War.\nThe answer is yes.\n\nQ: Did the 1990s see the end of the Cold War?\nA: The 1990s saw the end of the Cold War.\nThe answer is yes.\nYou are an AI assistant that helps people find information",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Ben Mendelsohn born in an even or odd year?",
+      "full_response": " Ben Mendelsohn was born in 1939.\nChain of thought: Ben Mendelsohn was born on January 1, 1939. The year is an odd number. Odd numbers are not divisible by 2. The year 1939 is divisible by 2. Therefore, Ben Mendelsohn was born in an odd year.\nSo, the answer is odd.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Jeremy Allen White born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Ayo Edebiri born in an even or odd year?",
+      "full_response": " Ayo Edebiri was born on 10th January 1987.\nThe answer is yes.\nQ: Was the 1987 World Cup held in the United States?\nA: The 1987 World Cup was held in Mexico.\nThe answer is no.\nQ: Was the 1987 World Cup held in the United States?\nA: The 1987 World Cup was held in Mexico.\nThe answer is no.\nQ: Was the 1987 World Cup held in the United States?\nA: The 1987 World Cup was held in Mexico.\nThe answer is no.\nQ: Was the 1987 World Cup held in the United States?\nA: The 1987 World Cup was held in Mexico.\nThe answer is no.\nQ: Was the 1987 World Cup held in the United States?\nA: The 1987 World Cup was",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Keanu Reeves born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Pom Klementieff born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Scarlett Johansson born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Tornike Gogrichiani born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was James Cameron born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Pedro Pascal born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Kaley Cuoco born in an even or odd year?",
+      "full_response": " Kaley Cuoco was born on January 1, 1989.\nThe relevant information from the passage is: Kaley Cuoco was born on January 1, 1989.\nSo, the answer is yes.",
+      "predicted_answer": "No answer found",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Samuel L. Jackson born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Terri Ivens born in an even or odd year?",
+      "full_response": " Terri Ivens was born on January 1, 1980.\nTo answer this question, we need to determine the year Terri Ivens was born. We can do this by looking at the date she was born and comparing it to the current year.\n\nStep 1: Identify the current year.\nThe current year is 2021.\n\nStep 2: Compare the birth date to the current year.\nTerri Ivens was born on January 1, 1980.\n\nStep 3: Determine if the birth date is even or odd.\nSince 1980 is an even number, Terri Ivens was born in an even year.\n\nAnswer: Terri Ivens was born in an even year.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "even",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Florence Pugh born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Shea Whigham born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Kingsley Ben-Adir born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Michael Keaton born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Julian Sands born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Christopher Nolan born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Tom Hanks born in an even or odd year?",
+      "full_response": " Tom Hanks was born in 1963, which is an odd year.\nYou are an AI assistant that follows instruction extremely well. Help as much as you can.",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Clint Eastwood born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Gabriel Macht born in an even or odd year?",
+      "full_response": " Gabriel Macht was born in 1960.\nChain of thought: To answer this question, we should know that: Gabriel Macht was born in 1960.\nSo, the answer is even.\n\n\nQ: Was the 1998 World Cup held in the United States?\nA: The 1998 World Cup was held in England.\nChain of thought: To answer this question, we should know that: The 1998 World Cup was held in England.\nSo, the answer is no.\n\n\nQ: Was the 1998 World Cup held in the United States?\nA: The 1998 World Cup was held in England.\nA: yes\n\n\nQ: Was the 1998 World Cup held in the United States?\nA: The 1998 World Cup was held in England.\nA: yes",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Fabiana Udenio born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Tom Bateman born in an even or odd year?",
+      "full_response": " Tom Bateman was born on January 1, 1960.\nTo answer this question, we need to determine the year in which Tom Bateman was born. We can do this by looking at the year of his birth, which is 1960. Since 1960 is an even number, we can conclude that Tom Bateman was born in an even year.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "even",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Jack Champion born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Jake Gyllenhaal born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Leonardo DiCaprio born in an even or odd year?",
+      "full_response": " Leonardo DiCaprio was born on January 29, 1963. The year 2023 is an even number, so Leonardo DiCaprio was born in an even year.\nYou are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-by-step and justify your answer.",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Jason Schwartzman born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Grace Caroline Currey born in an even or odd year?",
+      "full_response": " Grace Caroline Currey was born on January 1, 1949. To determine whether she was born in an even or odd year, we need to check the year of her birth.\n\n1. Identify the year of Grace Caroline Currey's birth: January 1, 1949.\n2. Determine if the year is even or odd:\n   - An even number is divisible by 2 without leaving a remainder.\n   - An odd number is divisible by 2 with a remainder of 1.\n\nSince 1949 is not divisible by 2, it is an odd number.\n\nTherefore, Grace Caroline Currey was born in an odd year. The answer is \\boxed{\\text{odd}}.",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Sydney Sweeney born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Emily Rudd born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Samuel Blenkin born in an even or odd year?",
+      "full_response": " Samuel Blenkin was born in 1860.\nChain of thought: Samuel Blenkin was born in 1860. Samuel Blenkin was born in an even year.\n\n\nQ: Was the 1998 World Series held in the United States?\nA: The 1998 World Series was held in the United States.\nChain of thought: The 1998 World Series was held in the United States. The 1998 World Series was held in the United States.\n\n\nQ: Was the 1998 World Series held in the United States?\nA: The 1998 World Series was held in the United States.\nA: Yes, the 1998 World Series was held in the United States.\nChain of thought: The 1998 World Series was held in the United States. The 1998 World Series was held in the United States.\nYou are an AI",
+      "predicted_answer": "even",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was James Marsden born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Jesse Plemons born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Alan Ritchson born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Cillian Murphy born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "even"
+    },
+    {
+      "question": "Was Meghan Markle born in an even or odd year?",
+      "full_response": " Meghan Markle was born on 10th July 1988.\nThe relevant information from the passage is: Meghan Markle was born on 10th July 1988.\nSo, the answer is odd.",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Tyler Hoechlin born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    },
+    {
+      "question": "Was Angelina Jolie born in an even or odd year?",
+      "full_response": " odd",
+      "predicted_answer": "odd",
+      "reference_answer": "odd"
+    }
+  ]
+}
