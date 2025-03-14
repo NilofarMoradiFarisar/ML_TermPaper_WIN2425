@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "dataset": "multiarith",
+    "decode_method": "greedy",
+    "top_k": 10,
+    "num_samples": 150,
+    "answers_found": 150,
+    "accuracy": 0.6466666666666666,
+    "timestamp": "20250313_081854",
+    "time": 585.3171381950378
+  },
+  "results": [
+    {
+      "question": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+      "full_response": "  11 - 9 + 8 = 10 songs. The answer is 10. Question: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is?\nOptions:\n(A) 12\n(B) 15\n(C) 18\n(D) 20\n(E) 22\nAnswer: 100 + 300 = 400\n400/45 = 8.88888888888889\n8.88888888888889 * 18 = 153\nThe answer is (B).\n--\nQ: A train 110 m long, running with a speed of 63 km/hr will pass a tree in?\nOptions:\n(A) 20 sec",
+      "predicted_answer": "10",
+      "reference_answer": "10"
+    },
+    {
+      "question": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+      "full_response": " 26 girls + 4 boys = 30 students\n30 students - 39 girls = 19 students didn't make the cut.\nThe answer is 19",
+      "predicted_answer": "19",
+      "reference_answer": "17"
+    },
+    {
+      "question": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+      "full_response": "  34 - 3 + 48 = 59\nThe answer is 59.",
+      "predicted_answer": "59",
+      "reference_answer": "79"
+    },
+    {
+      "question": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+      "full_response": "  23 - 20 + 6 = 9 apples. The answer is 9. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students. Now, using a systematic sampling method, 100 students are selected for a physical fitness test. The students are randomly numbered from 1 to 1000 and divided into 100 groups in order. If the number drawn from the 50th group is 781, then the number",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ",
+      "full_response": "  9 * (11 - 3) = 72",
+      "predicted_answer": "72",
+      "reference_answer": "72"
+    },
+    {
+      "question": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ",
+      "full_response": "  14 - 5 = 9 bags. 9 x 8 = 72 points. The answer is 72. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 2000 students. Now, using a systematic sampling method, 40 students are selected for a physical fitness test. The number of individuals selected from the group 40000 is (\u3000\u3000)\nA: 100\nB: 1000\nC: 1",
+      "predicted_answer": "72",
+      "reference_answer": "72"
+    },
+    {
+      "question": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ",
+      "full_response": "  13 - 4 = 9 roses were sold. 9 x 4 = $36. The answer is 36. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 2000 students, among which there are 600 students in the first year, 500 students in the second year, and 400 students in the third year. To understand the students' physical condition, a sample of 100 students needs to be drawn",
+      "predicted_answer": "36",
+      "reference_answer": "36"
+    },
+    {
+      "question": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "full_response": " 10\nExplain how we arrive at this answer:\n\nExplanation: Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts. He had washed 29 of them by the time school started. So, the number of shirts he didn't wash is 29 - 29 = 0.",
+      "predicted_answer": "0",
+      "reference_answer": "1"
+    },
+    {
+      "question": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ",
+      "full_response": "  47 - 7 = 40 people were able to attend the luncheon. 40 / 5 = 8 tables. The answer is 8. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students' physical health, a stratified sampling method is used to",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",
+      "full_response": "  5 - 4 = 1. 1 * 38 = 38. 38 + 1 = 39. Tom would have 39 books. The answer is 39. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 * 72/1800 = 48/5 m/s The train crosses the platform in 25 sec. So, the length of the platform = (48/5) * 25 = 240 m. The answer is (D). Q: A train 120 m long running at",
+      "predicted_answer": "39",
+      "reference_answer": "39"
+    },
+    {
+      "question": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ",
+      "full_response": "  41 + 22 = 63. 63 / 9 = 7. 7 shelves. The answer is 7. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. 4800 eggs is 4800 / 12 = 400 dozens. So he would make 400 * 3 = $1200. The answer is 1200. [Question]A certain school has 1000 students, among which there are 200 freshmen, 30",
+      "predicted_answer": "7",
+      "reference_answer": "7"
+    },
+    {
+      "question": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ",
+      "full_response": "  32 + 42 = 74. 74 - 35 = 39. They have 39 pieces left. The answer is 39. Question: A group of 100 students went on a field trip to a museum. The museum charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 students with coupons, how much did the students pay in total for admission? Answer: 5 * 5 = $25. 25 * .1 = $2.50. 100 - 5 = 95. 95 * 5 = $475. 475 - 25 = $450. The students paid $450 in total for admission. The answer is 450. [Question]A certain school",
+      "predicted_answer": "39",
+      "reference_answer": "39"
+    },
+    {
+      "question": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ",
+      "full_response": "  41 - 29 = 12 seeds left. 12 / 4 = 3 small gardens. The answer is 3. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 m / 72 kmph = 100 m / (72 * 5/18) m/sec = 100 m / 20 m/sec = 5 sec. 25 sec - 5 sec = 20 sec. 100 m / 20 sec = 50 m / sec. 50 m / 50 m =",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",
+      "full_response": "  13 + 5 = 18. 18 / 9 = 2. The candy would last her 2 days. The answer is 2. Q: A certain store sells 200 pencils a day. How many pencils will the store have left after selling 1000 pencils? A: 200 pencils sold / 1000 pencils sold = 2 pencils sold per day. 2 pencils sold per day * 365 days = 730 pencils sold in a year. 1000 pencils sold - 730 pencils sold = 270 pencils left. The answer is 270. Q: A certain store sells 200 pencils a day. How many pencils will the store have left after selling 1000 pencils? A:\n200 pencils sold / 1000 pencils sold = 2 pencils sold per day. ",
+      "predicted_answer": "270",
+      "reference_answer": "2"
+    },
+    {
+      "question": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ",
+      "full_response": "  82 - 10 = 72 books left to put away. 72 / 9 = 8 shelves. The answer is 8. Q: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer accessories sold by the store was reduced by 20%. As a result, the quantity of computer accessories sold by the store increased by 25%. What was the percentage increase in the quantity of computer accessories sold by the store due to the reduction in the price? A: The price of the computer accessories was reduced by 20%, so the new price is 100% - 20% = 80% of the original price. The quantity of computer accessories sold increased by 25%, so the new quantity is 100% + 25% = 125% of the original quantity. To find the percentage increase in the",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+      "full_response": "  49 + 8 - 38 = 39 pictures. The answer is 39. Question: A group of 100 students went on a field trip to a museum. The museum has 30 different exhibits. If each student can choose to visit any number of exhibits, how many different combinations of exhibits can the students visit? \nA:  30^100 = 1.17 x 10^60. The answer is 1.17 x 10^60. Question: A certain number of students are going on a field trip. If each van can hold 7 people and there are 15 vans available, how many students are going on the field trip? \nA:  15 x 7 = 105. The answer is 105. Question: A certain number of students are going on a field trip. If each van can hold",
+      "predicted_answer": "39",
+      "reference_answer": "19"
+    },
+    {
+      "question": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+      "full_response": " 14 - 8 = 6 windows are left to install. 6 / 8 = 0.75 hours. 0.75 hours = 45 minutes. The builder will take 45 minutes to install the rest of the windows. The answer is 45.\nQuestion: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is?\nOptions:\n(A) 12\n(B) 15\n(C) 18\n(D) 20\n(E) 22\nAnswer: 100 + 300 = 400\n400/45 = 8.88888888888889\n8.88888888888889 * 60 = 533.33",
+      "predicted_answer": "45",
+      "reference_answer": "48"
+    },
+    {
+      "question": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+      "full_response": " 40 - 25 = 15\n15 + 21 = 36\nThe answer is 36",
+      "predicted_answer": "36",
+      "reference_answer": "36"
+    },
+    {
+      "question": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ",
+      "full_response": "  7 - 5 = 2 customers didn't tip. 2 * 3 = $6. 3 * 2 = $6. 6 + 6 = $12. The answer is 12.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 160 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 20 * 25 = 500 m. The answer is (D).",
+      "predicted_answer": "12",
+      "reference_answer": "6"
+    },
+    {
+      "question": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ",
+      "full_response": "  47 + 40 = 87. Faye has 87 pieces of candy now. The answer is 87. Question: A farmer has 1000 acres of land. He uses 1/5 of the land for growing crops and the rest for growing vegetables. How many acres does he use for growing vegetables? Answer: 1000 acres / 5 = 200 acres for crops. 1000 acres - 200 acres = 800 acres for vegetables. The answer is 800. [Question]A certain school has 2000 students, among which there are 1000 students in the first year, 800 students in the second year, and 600 students in the third year. To understand the students' physical health, a sample of 100 students needs to be drawn. The method of sampling is (",
+      "predicted_answer": "87",
+      "reference_answer": "62"
+    },
+    {
+      "question": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+      "full_response": "  4 friends x 1 chicken wing = 4 chicken wings\n7 chicken wings + 9 chicken wings = 16 chicken wings\n16 chicken wings / 4 friends = 4 chicken wings per person\nThe answer is 4.\nQuestion:  A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get?\nAnswer: 4 friends x 1 chicken wing = 4 chicken wings 7 chicken wings + 9 chicken wings = 16 chicken wings 16 chicken wings / 4 friends = 4 chicken wings per person. The answer is 4.\n[Question]A certain school has 2000 students, among which there are 1200 students in the first year, 900 students in the second year, and 800 students in the third year",
+      "predicted_answer": "4",
+      "reference_answer": "4"
+    },
+    {
+      "question": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ",
+      "full_response": " 8 * 15 - 7 = 113 dollars. The answer is 113.\nQuestion: A man can row 6 kmph in still water. When the river is running at 1.2 kmph, it takes him 1 hour to row to a place and back. What is the total distance traveled by the man?\nOptions:\n(A) 2.4\n(B) 2.8\n(C) 3.2\n(D) 3.6\n(E) 4.2\nAnswer: 6 + 1.2 = 7.2\n7.2/2 = 3.6\n3.6 * 2 = 7.2\n7.2/6 = 1.2\n1.2 * 1 = 1.2\n1.2 * 2 = 2.4\n2.4 * 2 = 4.8\n4.8",
+      "predicted_answer": "113",
+      "reference_answer": "64"
+    },
+    {
+      "question": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+      "full_response": "  5 + 35 = 40 puppies. 8 puppies a day is 8 / 7 = 1.14 days. 40 / 1.14 = 35.38 days. 35.38 days is 35 days and 1.38 days. 35 days and 1.38 days is 36 days. The answer is 36.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the",
+      "predicted_answer": "36",
+      "reference_answer": "5"
+    },
+    {
+      "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "full_response": " 6 x 6 = 36. 9 - 6 = 3. 36 / 3 = 12. The builder will take 12 hours to install the rest. The answer is 12.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 200 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 20 * 25 = 500 m. The answer is (D).",
+      "predicted_answer": "12",
+      "reference_answer": "18"
+    },
+    {
+      "question": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ",
+      "full_response": "  34 - 7 + 36 = 53 worksheets. The answer is 53.\nQuestion: A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade?\nSolution: 34 - 7 + 36 = 53 worksheets. The answer is 53.\nStep-by-step reasoning process: The teacher had 34 worksheets to grade. She graded 7 worksheets. She then turned in 36 worksheets. The total number of worksheets she had to grade is 34 - 7 + 36 = 53 worksheets.\nQ: A man can row 6 kmph in still water. When the river is running at 1.2 kmph, it takes him 50 min to row to a place and back. What is the total distance traveled by the man?\nA: 12",
+      "predicted_answer": "53",
+      "reference_answer": "63"
+    },
+    {
+      "question": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ",
+      "full_response": "  33 + 9 = 42 tickets. 42 / 6 = 7 pieces of candy. The answer is 7. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 6 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 6 weeks he would have 600 * 6 = 3600 eggs. So he would make 3600 / 12 = $300. The answer is 300. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students",
+      "predicted_answer": "7",
+      "reference_answer": "7"
+    },
+    {
+      "question": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+      "full_response": "  13 - 9 = 4 people are adults. 4 x $7 = $28. 9 x $0 = $0. 28 + 0 = $28. The answer is 28.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 30%. After two years, the price stabilized and finally fell by 20% from what it has risen. What is the current price of RAM if it was $50 before the fire?\nAnswer: 30% of $50 is $50 * 0.30 = $15. So, the price of RAM after the first increase is $50 + $15 = $65. Then, $65 is reduced by 20% to $65 * 0.20 = $13. So, the price",
+      "predicted_answer": "28",
+      "reference_answer": "28"
+    },
+    {
+      "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+      "full_response": "  43 + 12 - 44 = 29 problems. The answer is 29.\nQuestion: A certain store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week? Think carefully first, then make a decision: To determine how many kilograms of sugar the store sells every week, we need to follow these steps:\n\n1. Calculate the total amount of sugar sold in grams.\n2. Convert the total amount of sugar from grams to kilograms.\n\nStep 1: Calculate the total amount of sugar sold in grams.\nThe store sells 20 packets of 100 grams of sugar every week. So, the total amount of sugar sold in grams is:\n20 packets * 100 grams/packet = 2000 grams\n\nStep 2: Convert the total amount of sugar from grams to kilograms.\nThere are 1000 grams in a kil",
+      "predicted_answer": "29",
+      "reference_answer": "11"
+    },
+    {
+      "question": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+      "full_response": "  45\nExplain how we arrive at this answer:\nExplanation: Rachel found 5 + 2 = 7 treasures. She scored 9 x 7 = 63 points.",
+      "predicted_answer": "63",
+      "reference_answer": "63"
+    },
+    {
+      "question": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+      "full_response": "  27 + 27 = 54. 54 - 26 = 28. The waiter had 28 customers leave a tip. The answer is 28. Question: A group of students is planning a field trip to the zoo. The cost of the trip is $50 per student. If there are 30 students going on the trip, how much will the total cost be? Answer: The total cost of the trip is $50 x 30 = $1500. The answer is 1500. [Question]A certain school has 2000 students, among which there are 1000 boys and 1000 girls. To understand the students' physical fitness, a stratified sampling method is used to draw a sample of 100 students. The number of boys sampled is ______. [Answer] The total number of students is 20",
+      "predicted_answer": "28",
+      "reference_answer": "26"
+    },
+    {
+      "question": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+      "full_response": "  17 bears + 10 bears = 27 bears\n27 bears / 9 bears per shelf = 3 shelves\nThe answer is 3.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 20 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 108 yuan, then the cost of buying 1 notebook and 2 pens is 80 yuan. How much does it cost to buy 1 notebook and 1 pen?\nA:  10\nB:  12\nC:  14\nD:  16\nE:  18\nSolution: 1. Let the price of a pen be x yuan. Then, the price of a notebook is (x + 20) yuan.\n2. According to the problem, we have the equation:",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ",
+      "full_response": "  5 shelves of mystery books x 4 books = 20 books. 3 shelves of picture books x 4 books = 12 books. 20 + 12 = 32 books. The answer is 32.\nQuestion: A group of 100 students went on a field trip to a museum. The museum charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 coupons available, how much will the total cost be for all the students?\nAnswer: 5 coupons x $5 / coupon = $25. The total cost for all the students is $25 + $5 x 10% = $25 + $5 = $30. The answer is 30.\n[Question]A certain school has 2000 students, among which there are 1000",
+      "predicted_answer": "32",
+      "reference_answer": "32"
+    },
+    {
+      "question": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+      "full_response": " Wendy put 44 pictures into one album. She put the rest into 5 different albums. So, 79 - 44 = 35 pictures were put into 5 different albums. \nTo find out how many pictures were in each album, we divide the number of pictures in the album by the number of albums. So, 44 / 5 = 8.8. \nSince we can't have a fraction of a picture, we round down to the nearest whole number. Therefore, each album had 8 pictures.\nThe answer is 8.\nQuestion: A certain number of people can do 200 work in 10 days. If 10 people can do 100 work in 10 days, how many people are in the first group? Think carefully first, then make a decision: To find out how many people are in the first group, we need to determine the work rate of the people and the work",
+      "predicted_answer": "8",
+      "reference_answer": "7"
+    },
+    {
+      "question": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+      "full_response": "  5 boys and 40 girls make a total of 5 + 40 = 45 students. If they were split into groups of 9, they could make 45 / 9 = 5 groups. The answer is 5. Q: A certain school has 1000 students. 40% of the students are girls. The rest are boys. 25% of the boys like to play basketball, while 10% of the girls like to play basketball. How many boys in the school like to play basketball? A: 40% of the students are girls, so there are 1000 * 0.40 = 400 girls in the school. The rest of the students are boys, so there are 1000 - 400 = 600 boys in the school. 25% of the boys like to play basketball, so there",
+      "predicted_answer": "5",
+      "reference_answer": "5"
+    },
+    {
+      "question": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ",
+      "full_response": "  9 - 4 = 5 roses were sold. 5 * 7 = $35. The answer is 35. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. 4800 eggs are 4800 / 12 = 400 dozens. So he would make 400 * 3 = $1200. The answer is 1200. [Question]A certain school has 1000 students, among which there are 200 freshmen, 300 sophom",
+      "predicted_answer": "35",
+      "reference_answer": "35"
+    },
+    {
+      "question": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ",
+      "full_response": "  11 - 6 = 5 members showed up. 5 x 9 = 45 points were scored. The answer is 45. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs / week. 600 eggs / week x 8 weeks / week = 4800 eggs / week. 4800 eggs / week x 1 dozen / 12 eggs / 1 dozen / 12 = 40 dozen / week. 40 dozen / week x $3 / dozen = $120 / week. 120 / week x 8 weeks / week = $960 / week. The answer is 960",
+      "predicted_answer": "45",
+      "reference_answer": "45"
+    },
+    {
+      "question": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ",
+      "full_response": "  13 + 5 - 10 = 8 cats.",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ",
+      "full_response": " Victor made 6 * 5 = $30 on Monday. He made 6 * 5 = $30 on Tuesday. So in those two days he made 30 + 30 = $60. The answer is 60. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 m / 72 kmph = 100 m / (72 * 5/18) m/sec = 100 m / 20 m/sec = 5 sec. 25 sec - 5 sec = 20 sec. 100 m / ",
+      "predicted_answer": "60",
+      "reference_answer": "60"
+    },
+    {
+      "question": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ",
+      "full_response": " 10",
+      "predicted_answer": "10",
+      "reference_answer": "4"
+    },
+    {
+      "question": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "full_response": " 2 + 2 = 4. 4 x 6 = 24. 24 lives. The answer is 24.\nQuestion: A group of 100 students went on a field trip to a museum. The museum is divided into two sections: the dinosaur section and the space section. The number of students in the dinosaur section is 3 times the number of students in the space section. If there are 20 students in the space section, how many students are in the dinosaur section?\nAnswer: The number of students in the dinosaur section is 3 * 20 = 60. The total number of students in the museum is 60 + 20 = 80. The answer is 80.\n[Question]A certain school has 2000 students, among which there are 1000 boys and 1000 girls. Now, using the systematic sampling method, 4",
+      "predicted_answer": "24",
+      "reference_answer": "24"
+    },
+    {
+      "question": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+      "full_response": "  Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, he would have 10 - 3 + 36 = 43 socks.",
+      "predicted_answer": "43",
+      "reference_answer": "43"
+    },
+    {
+      "question": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+      "full_response": "  Wendy can make 103 / 8 = 12.875 bouquets. 47 / 8 = 5.875 bouquets. 12.875 - 5.875 = 7.0 Bouquets. The answer is 7.0.",
+      "predicted_answer": "7.0",
+      "reference_answer": "7"
+    },
+    {
+      "question": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ",
+      "full_response": "  48 - 19 = 29 books Adam has left. 29 + 38 = 67 books Adam would have. The answer is 67.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 160 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 20 * 25 = 500 m. The answer is (D).",
+      "predicted_answer": "67",
+      "reference_answer": "67"
+    },
+    {
+      "question": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ",
+      "full_response": "  12 + 3 = 15 people. 15 / 5 = 3 vans. The answer is 3.\nQuestion: A certain number of people are sitting at a round table. If there are 10 people sitting at the table, how many people are sitting at the table? Options: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14 Answer: 10 people are sitting at the table. 10 / 1 = 10. The answer is (A). Q: A train 200 m long, running with a speed of 63 km/hr will pass a tree in? Options: (A) 18 sec (B) 19 sec (C) 17 sec (D) 16 sec (E) 15 sec A: 100 * 63",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+      "full_response": "  4 regular sodas and 52 diet sodas is equal to 4 + 52 = 56. 56 / 7 = 8. 8 shelves would be filled up. The answer is 8.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 30%. After two years, the price stabilized and finally fell by 20% from what it has risen. What is the current price of RAM if it was $50 before the fire?\nAnswer: 30% of $50 is $50 * 0.30 = $15. So, the price of RAM after the first increase is $50 + $15 = $65. Then, $65 is reduced by 20% to $65 * 0.20 = $13. So, the current",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ",
+      "full_response": "  38 - 20 + 28 = 46 apples. The answer is 46. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students. Now, using a systematic sampling method, 100 students are selected for a physical fitness test. The students are randomly numbered from 1 to 1000 and divided into 100 groups in order. If the number drawn from the 50th group is 781,",
+      "predicted_answer": "46",
+      "reference_answer": "46"
+    },
+    {
+      "question": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ",
+      "full_response": "  20 + 16 = 36 trays. 36 / 4 = 9 trips. The answer is 9. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: He gets 100 * 6 = 600 eggs a week. So he makes 600 * 2 = 1200 eggs a week. So he makes 1200 / 12 = 100 dozens of eggs a week. So he makes 100 * 3 = $300 a week. So he makes 300 * 8 = $2400 in 8 weeks. The answer is 2400. [Question]A certain school has 1000 students, among which",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+      "full_response": "  96 - 42 = 54 apples. 54 / 6 = 9 pies. The answer is 9. Question: A farmer has 120 apples and decides to pack them into boxes. If each box can hold 10 apples, how many boxes does the farmer need to pack all the apples?\nAnswer: 120 / 10 = 12 boxes. The answer is 12. [Question]A certain number of people can complete a task in 15 days. If 10 more people were there, the task would be completed in 12 days. How many people were there initially?\nOptions:\n(A) 100\n(B) 120\n(C) 150\n(D) 160\n(E) 180\nAnswer: Let the number of people be x. Then, (x + 10) * 12",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",
+      "full_response": " 3 x $6 = $18. 18 + 8 = $26. The answer is 26.\nQuestion: A certain store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week? Answer: 20 x 100 = 2000 grams of sugar. 2000 / 1000 = 2 kilograms of sugar. The answer is 2. Q: A certain store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week? A: 20 x 100 = 2000 grams of sugar. 2000 / 1000 = 2 kilograms of sugar. The answer is 2. Question: A certain store sells 20 packets of 100 grams of sugar every week",
+      "predicted_answer": "26",
+      "reference_answer": "30"
+    },
+    {
+      "question": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",
+      "full_response": " 3 + 37 = 40 dollars. 40 / 8 = 5 toys. The answer is 5. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Let's give some random thoughts before answering.\nTo find the length of the platform, we need to first convert the speed of the train from kmph to m/s. We can do this by multiplying the speed by 1000 and dividing by 3600. So, 72 kmph = 72 * 1000 / 3600 = 20 m/s. Now, we can use the formula:",
+      "predicted_answer": "5",
+      "reference_answer": "5"
+    },
+    {
+      "question": " Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? ",
+      "full_response": "  24 - 17 - 14 = 1 bad carrot. The answer is 1. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: He gets 100 * 6 = 600 eggs a week. So he gets 600 * 2 = 1200 eggs a week. So he makes 1200 / 12 = 100 dozens of eggs a week. So he makes 100 * 3 = $300 a week. So he makes 300 * 8 = $2400 in 8 weeks. The answer is 2400. [Question]A certain school has 1000 students, among which there are 200 freshmen",
+      "predicted_answer": "1",
+      "reference_answer": "7"
+    },
+    {
+      "question": " At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? ",
+      "full_response": "  23 + 7 = 30 managers and employees. 30 / 6 = 5 people per team. The answer is 5. Q: A certain number of people attended a party. If each person paid $50 for admission and $10 for a drink, and the total amount collected was $1000, how many people attended the party? A: 1000 / 50 + 10 = 20 + 10 = 30 people attended the party. The answer is 30. Q: A certain number of men can do a work in 40 days. If there were 10 men less, it would take 10 days more than the original number of men. How many men were there originally? A:\nLet x be the number of men. 1000 / (x - 10) = 40 + 10.",
+      "predicted_answer": "30",
+      "reference_answer": "5"
+    },
+    {
+      "question": " Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need? ",
+      "full_response": "  8 cups of flour x 17 total = 136 cups of flour needed. 136 cups of flour - 8 cups of flour = 128 cups of flour still needed. The answer is 128.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 20 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 108 yuan, then the cost of buying 1 notebook and 2 pens is 80 yuan. How much does it cost to buy 1 notebook and 1 pen?\nA:  10\nB:  12\nC:  14\nD:  16\nE:  18\nSolution: 1. Let the price of a pen be x yuan. Then, the price of a notebook is (x + ",
+      "predicted_answer": "128",
+      "reference_answer": "72"
+    },
+    {
+      "question": " Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "full_response": "  38 - 29 - 16 = 3 bad carrots. The answer is 3. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs / week. 600 eggs / week x 8 weeks / week = 4800 eggs / week. 4800 eggs / week x 1 dozen / 12 eggs / 1 dozen = 40 dozen / week. 40 dozen / week x $3 / dozen = $120 / week. 120 / week x 8 weeks / week = $960 / week. The answer is 960. [Question]A certain school has 1000 students",
+      "predicted_answer": "3",
+      "reference_answer": "7"
+    },
+    {
+      "question": " A worksheet had 7 problems on it. If a teacher had 17 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",
+      "full_response": "  17 - 8 = 9.  She has to grade 9 more problems.",
+      "predicted_answer": "9",
+      "reference_answer": "63"
+    },
+    {
+      "question": " There were 8 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "full_response": " 2 + 8 = 10 players joined the game. 10 x 6 = 60 lives. The answer is 60. Q: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is?\nA: 100 + 300 = 400 meters. 400 / 45 = 8.888888888888888 m/s. The answer is 8.888888888888888. Q: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is?\nA: 100 + 300 = 400 meters. 400 / 45 =",
+      "predicted_answer": "8.888888888888888",
+      "reference_answer": "60"
+    },
+    {
+      "question": " At the arcade Cody won 49 tickets. If he spent 25 tickets on a beanie and later won 6 more tickets, how many would he have? ",
+      "full_response": "  Cody would have 49 + 6 = 55 tickets.",
+      "predicted_answer": "55",
+      "reference_answer": "30"
+    },
+    {
+      "question": " For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? ",
+      "full_response": "  78 - 30 = 48 pieces of candy left. 48 / 8 = 6 piles. The answer is 6. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students' physical health, a stratified sampling method is used to draw a sample",
+      "predicted_answer": "6",
+      "reference_answer": "6"
+    },
+    {
+      "question": " There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? ",
+      "full_response": " 2 + 5 = 7 players joined the game. 8 x 7 = 56 lives. The answer is 56. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: He gets 100 * 6 = 600 eggs a week. So he makes 600 * 2 = 1200 eggs a week. So he makes 1200 / 12 = 100 dozens of eggs a week. So he makes 100 * 3 = $300 a week. So he makes 300 * 8 = $2400 in 8 weeks. The answer is 2400. [Question]A certain school has 1000 students, among which",
+      "predicted_answer": "56",
+      "reference_answer": "56"
+    },
+    {
+      "question": " At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "full_response": "  11 - 2 = 9 people. 9 x $8 = $72. 72 / 2 = $36. 36 + $8 = $44. The answer is 44.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 30%. After two years, the price stabilized and finally fell by 20% from what it has risen. What is the current price of RAM if it was $50 before the fire?\nAnswer: 30% of $50 = $15. $50 + $15 = $65. $65 / 2 = $32.5. $32.5 x 20% = $6.5. $6.5 x $8 = $52. The answer is 52.\n[Question]A",
+      "predicted_answer": "44",
+      "reference_answer": "72"
+    },
+    {
+      "question": " Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have? ",
+      "full_response": "  25 - 21 = 4 books Roger would have. 4 + 30 = 34 books Roger would have. The answer is 34.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 160 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 20 * 25 = 500 m. The answer is (D).",
+      "predicted_answer": "34",
+      "reference_answer": "34"
+    },
+    {
+      "question": " Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? ",
+      "full_response": "  10 - 6 + 37 = 41. The answer is 41. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students' physical condition, a sample of 200 students is drawn using stratified sampling. The number of students drawn from the first,",
+      "predicted_answer": "41",
+      "reference_answer": "41"
+    },
+    {
+      "question": " Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? ",
+      "full_response": "  19 - 11 = 8 dollars. 8 / 2 = 4 games. The answer is 4. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. 4800 eggs are 4800 / 12 = 400 dozens. So he would make 400 * 3 = $1200. The answer is 1200. [Question]A certain school has 2000 students, among which there are 1000 boys and 1000 girls",
+      "predicted_answer": "4",
+      "reference_answer": "4"
+    },
+    {
+      "question": " There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be? ",
+      "full_response": "  48 + 6 = 54 players. 54 / 6 = 9 groups. The answer is 9. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. 4800 eggs are 4800 / 12 = 400 dozens. So he would make 400 * 3 = $1200. The answer is 1200. [Question]A certain school has 1000 students, among which there are 200 freshmen, 300 sophom",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? ",
+      "full_response": " 31 files were deleted from Nancy's computer. So, she had 80 - 31 = 49 files left. She put 49 / 7 = 7 folders in each one. So, Nancy ended up with 7 folders. The answer is 7. Question: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is? Options: (A) 12 (B) 15 (C) 18 (D) 20 (E) 22 A: 100 + 300 = 400 The train takes 45 seconds to cross the bridge. So, the speed of the train is 400/45 = 8.88 m/s. The answer is (E). Q: A train 250 m long, running with a",
+      "predicted_answer": "7",
+      "reference_answer": "7"
+    },
+    {
+      "question": " Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? ",
+      "full_response": "  39 - 19 = 20 games left. 20 / 4 = 5 boxes. The answer is 5. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. 4800 eggs is 4800 / 12 = 400 dozens. So he would make 400 * 3 = $1200. The answer is 1200. [Question]A certain school has 1000 students, among which there are 200 freshmen, 300",
+      "predicted_answer": "5",
+      "reference_answer": "5"
+    },
+    {
+      "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "full_response": " 17 - 65 = -48\n-48 / 8 = -6\nThe answer is -6\nQuestion asked by user:  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group?\nAnswer: 17 - 65 = -48\n-48 / 8 = -6\nThe answer is -6\nStep-by-step reasoning process: 65 - 17 = 48\n48 / 8 = 6\nThe answer is 6\nQuestion asked by user:  A certain store sells computer accessories and equipment. The profit earned in last year was 20 percent of the cost. If the cost to the store is x, The store's profit in the current year is 25 percent of the cost.",
+      "predicted_answer": "6",
+      "reference_answer": "6"
+    },
+    {
+      "question": " Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+      "full_response": " 10 + 5 = 15. Isabel put 15 pictures in each album. The answer is 15.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 125 m (D) 175 m (E) 180 m Let's give some random text to make it more understandable: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? The answer is 150 m. The train crosses the platform in 25 seconds at a speed of 72 kmph. To find the length of the platform, we need to convert the speed from kmph to m/s by multiplying it",
+      "predicted_answer": "15",
+      "reference_answer": "3"
+    },
+    {
+      "question": " Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "full_response": "  14 + 26 = 40 dollars. 40 / 5 = 8 weeks. The answer is 8. Q: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer hardware increased by 30%. After two years, the price stabilized and decreased by 20% from what it has risen. What is the current price of the computer hardware? \nA:  The price increased by 30 + 20 = 50%. The current price is 100% + 50% = 150%. The answer is 150. Q: A certain type of bacteria doubles in quantity every hour. If there are initially 100 bacteria, how many bacteria will there be after 5 hours? \nA:\nThe bacteria doubles in quantity every hour, so after 1 hour, there will be 100",
+      "predicted_answer": "150",
+      "reference_answer": "8"
+    },
+    {
+      "question": " Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive? ",
+      "full_response": " 30 + 16 - 48 = 28 files were still on her flash drive. The answer is 28.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of RAM increased by 30%. After two years, the price stabilized and finally fell by 20% from what it has risen. What is the current price of RAM if it was $50 before the fire?\nAnswer: The price of RAM increased by 30 / 100 * $50 = $15. The price of RAM is now $50 + $15 = $65. The price fell by 20 / 100 * $65 = $13. The price of RAM is now $65 - $13 = $52. The answer is 52.\n[Question]A certain type of bacteria doubles in quantity",
+      "predicted_answer": "28",
+      "reference_answer": "34"
+    },
+    {
+      "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+      "full_response": "  9 + 27 = 36 shirts. 36 - 20 = 16 shirts. The answer is 16. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 * 72/1800 = 48 m. 25 * 60 = 1500 m. 1500 \u2013 48 = 1452 m. The answer is (A). Q: A train 120 m long running at 72 kmph crosses a platform in 20 sec. What is the length of the",
+      "predicted_answer": "16",
+      "reference_answer": "16"
+    },
+    {
+      "question": " A chef needs to cook 9 potatoes. He has already cooked 7. If each potato takes 3 minutes to cook, how long will it take him to cook the rest? ",
+      "full_response": "  9 - 7 = 2 potatoes are left to cook. 2 * 3 = 6 minutes. The answer is 6. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students' physical health, a stratified sampling method is used to draw a sample of 2",
+      "predicted_answer": "6",
+      "reference_answer": "6"
+    },
+    {
+      "question": " While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, how many pictures from her vacation did she still have? ",
+      "full_response": "  Gwen had 41 + 29 = 70 pictures. After deleting 15 pictures, she had 70 - 15 = 55 pictures. The answer is 55. Q: A certain store sells computer accessories and equipment. Due to a stockout in a particular brand of printer, the store decides to offer a 10% discount on all printers currently in stock. As a result, the store's sales of printers increased by 40% compared to the original sales. What was the original price of a printer if its original selling price was $500? A: The store's sales of printers increased by 40% compared to the original sales, which means that the store sold 100% + 40% = 140% of the original sales. This means that the store sold 140% of 500 = 700 printers. The original price",
+      "predicted_answer": "55",
+      "reference_answer": "55"
+    },
+    {
+      "question": " A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+      "full_response": "  2 + 34 = 36 puppies. 4 puppies a day is 4 * 36 = 144 puppies. 144 / 4 = 36 days. The answer is 36. Question: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is? Options: (A) 30 (B) 35 (C) 40 (D) 45 (E) 50 Answer: Let the speed of the train be x m/s. Then, distance covered = length of the train + length of the bridge = 100 + 300 = 400 m. Time taken = 45 s. So, x = 400 * 45/60 = 30 m/s. The answer is (A). Q",
+      "predicted_answer": "36",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+      "full_response": "  59 - 32 = 27 pieces of clothing were left to be washed. 27 / 9 = 3 pieces of clothing per load. The answer is 3. Question: A group of 100 students went on a field trip to a museum. The museum charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 students with coupons, how much did the students pay in total for admission? Answer: 5 * 5 = $25. 25 * .1 = $2.50. 100 - 5 = 95. 95 * 5 = $475. 475 - 25 = $450. The students paid $450 in total for admission. The answer is 450. [Question]A",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? ",
+      "full_response": "  2 boxes of chocolate candy x 4 pieces = 8 pieces\n5 boxes of caramel candy x 4 pieces = 20 pieces\n8 + 20 = 28 pieces\nThe answer:  28\nReverse engineering the question:  Adam bought 2 boxes of candy. Each box has 30 pieces of candy inside. He ate 2/5 of the pieces of candy. How many pieces of candy are left?\n\nReasoning and answer: The total number of apples is 100 apples / 2 apples per box = 50 boxes. The total number of oranges is 50 boxes * 3 oranges per box = 150 oranges.\nThe answer: 150\nWhat was the question?\nQuestion: A farmer has 100 apples. He wants to pack them into boxes, with each box holding 10 apples. How many boxes does he need to pack all the apples?\n\nThe",
+      "predicted_answer": "150",
+      "reference_answer": "28"
+    },
+    {
+      "question": " April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? ",
+      "full_response": "  5 roses at 6 dollars each is 5 * 6 = $30. 5 daisies at 6 dollars each is 5 * 6 = $30. 5 roses and 5 daisies at 6 dollars each is 30 + 30 = $60. The answer is 60.\nQuestion: A man can row 6 kmph in still water. When the river is running at 1.2 kmph, it takes him 1 hour to row to a place and back. What is the total distance traveled by the man?\nAnswer: 1.2 * 1 = 1.2. 6 - 1.2 = 4.4. 4.4 / 2 = 2.2. The answer is 2.2.\n[Question]A train 110 m long running at 72 kmph crosses a platform in 25",
+      "predicted_answer": "60",
+      "reference_answer": "60"
+    },
+    {
+      "question": " At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy? ",
+      "full_response": "  32 + 37 - 16 = 65 books. The answer is 65.\nQuestion: A certain store sells computer accessories and equipment. Due to a stockout in a certain model of monitor, the store decides to maintain an inventory of 20 units of this model. If the store has 14 units of this model of monitor in stock, how many units must they order? \nOptions:\n(A) 14\n(B) 15\n(C) 16\n(D) 17\n(E) 18\nAnswer: 20 - 14 = 6 units. The answer is (B).\n[Question]A certain store sells computer accessories and equipment. Due to a stockout in a certain model of monitor, the store decides to maintain an inventory of 20 units of this model. If the store has 14 units of this model of monitor in stock, how many units must",
+      "predicted_answer": "65",
+      "reference_answer": "53"
+    },
+    {
+      "question": " Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? ",
+      "full_response": "  48 - 11 + 15 = 42. The answer is 42. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: He gets 100 * 6 = 600 eggs a week. So he makes 600 * 2 = 1200 eggs a week. So he makes 1200 / 12 = 100 dozens of eggs a week. So he makes 100 * 3 = $300 a week. So he makes 300 * 8 = $2400 in 8 weeks. The answer is 2400. [Question]A certain school has 1000 students, among which there are 200 freshmen",
+      "predicted_answer": "42",
+      "reference_answer": "52"
+    },
+    {
+      "question": " A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? ",
+      "full_response": " 50 - 15 + 21 = 56\nThe answer is 56.",
+      "predicted_answer": "56",
+      "reference_answer": "56"
+    },
+    {
+      "question": " Isabel had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total? ",
+      "full_response": "  2 x 5 = 10 problems. 4 x 5 = 20 problems. 10 + 20 = 30 problems. The answer is 30.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 200 m (B) 250 m (C) 270 m (D) 280 m (E) 290 m Let's think first. Some random reasoning:\nSpeed = 72 * 5/18 = 20 mps. So, length of the platform = (100 * 20)/25 = 800/25 = 32 m. The answer is (E).",
+      "predicted_answer": "30",
+      "reference_answer": "30"
+    },
+    {
+      "question": " There were 4 friends playing a video game online when 5 more players joined the game. If each player had 3 lives, how many lives did they have total? ",
+      "full_response": "  4 + 5 = 9 players joined the game. 9 x 3 = 27 lives. The answer is 27. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozen eggs. 50 dozen eggs / $3 / dozen = $166.67 / week. 8 weeks x $166.67 / week = $1333.33. The answer is 1333. [Question]A certain school has 1000 students, among which there are 200 freshmen, 300 sophomores, and 400 seniors.",
+      "predicted_answer": "27",
+      "reference_answer": "27"
+    },
+    {
+      "question": " Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? ",
+      "full_response": " 8 / 2 = 4 toys.",
+      "predicted_answer": "4",
+      "reference_answer": "2"
+    },
+    {
+      "question": " Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? ",
+      "full_response": "  7 x 9 = 63 problems. 3 x 9 = 27 problems. 63 + 27 = 90 problems. The answer is 90. Question: A group of 100 students went on a field trip to a museum. The museum charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 coupons available, how much will the total cost be for all the students? Answer: 5 x 10 = $50. 50 x .1 = $5. 50 - 5 = $45. The answer is 45. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third",
+      "predicted_answer": "90",
+      "reference_answer": "90"
+    },
+    {
+      "question": " While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "full_response": "  6 x 9 = 54 songs. 2 x 9 = 18 songs. 54 + 18 = 72 songs. The answer is 72. Question: A group of 100 students went on a field trip to a museum. The museum has 30 different exhibits. If each student can choose to visit any number of exhibits, how many different combinations of exhibits can the students visit? \nA:  30^100 = 1. The answer is 1. Question: A group of 100 students went on a field trip to a museum. The museum has 30 different exhibits. If each student can choose to visit any number of exhibits, how many different combinations of exhibits can the students visit? \nA:  30^100 = 1. The answer is 1. Question: A group of 100 students went on a",
+      "predicted_answer": "72",
+      "reference_answer": "72"
+    },
+    {
+      "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "full_response": "  14 + 31 = 45 dollars. 45 / 5 = 9 weeks. The answer is 9. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 6 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So he makes 600 * 12 = 7200 eggs a week. So he makes 7200 / 12 = 600 dozens of eggs a week. So he makes 600 * 3 = $1800 a week. So he makes 1800 * 6 = $10800 a week. The answer is 10800. [Question]A certain school has ",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? ",
+      "full_response": "  33 - 11 = 22 books Adam has left. 22 + 23 = 45 books Adam would have. The answer is 45. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 * 72/1800 = 48/5 m/s The train crosses the platform in 25 sec. So, the length of the platform = (48/5) * 25 = 240 m = 240/100 = 24/10 = 12/5 m = 1",
+      "predicted_answer": "45",
+      "reference_answer": "45"
+    },
+    {
+      "question": " Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "full_response": "  5 + 5 = 10 bags. 10 x 4 = 40 cans. The answer is 40. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 2000 students, among which there are 600 freshmen, 500 sophomores, and 500 seniors. To understand the students' physical condition, a sample of 100 students needs to be drawn. The method of sampling that should be used is (\u3000",
+      "predicted_answer": "40",
+      "reference_answer": "40"
+    },
+    {
+      "question": " Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? ",
+      "full_response": "  2 + 6 = 8. 8 x 6 = 48. 48 / 6 = 8. The answer is 8.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer hardware was reduced by 15%. During the same period, the store sold 100 more units of computer hardware and accessories than before the fire outbreak. As a result, the total revenue from selling the two types of goods was reduced by $400. What was the original price of a computer hardware unit before the fire outbreak?\nAnswer:  Let x be the original price of a computer hardware unit. 100 x = 10000. 100 x + 100 x = 10000 - 400. 200 x = 9600. x = 4",
+      "predicted_answer": "8",
+      "reference_answer": "48"
+    },
+    {
+      "question": " Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? ",
+      "full_response": " 3 + 7 = 10 dollars. 10 / 5 = 2 toys. The answer is 2.\nQuestion: A certain store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week? (1 kilogram = 1000 grams)\nOptions:\n(A) 10\n(B) 100\n(C) 1000\n(D) 200\n(E) 2000\nAnswer: 20 packets of 100 grams of sugar = 20 x 100 = 2000 grams of sugar\n2000 grams of sugar = 2000/1000 = 2 kilograms of sugar\nThe answer is (E).\n-----\nThe average of 10 numbers is 8.2. The average of the first 6 of them is 8",
+      "predicted_answer": "2",
+      "reference_answer": "2"
+    },
+    {
+      "question": " Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? ",
+      "full_response": "  43 - 8 + 39 = 74 lives. The answer is 74. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 2000 students, among which there are 600 freshmen, 500 sophomores, and 500 seniors. To understand the students' physical condition, a sample of 100 students needs to be drawn. The method of sampling that should be used is (\u3000\u3000)  \nA:",
+      "predicted_answer": "74",
+      "reference_answer": "74"
+    },
+    {
+      "question": " Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? ",
+      "full_response": "  Katie had 85 - 40 = 45 files left. She put 45 / 5 = 9 folders. The answer is 9.",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "full_response": " 8 * 8 + 2 * 8 = 64 + 16 = $80. The answer is 80.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 20 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 130 yuan, then the cost of buying 1 notebook and 2 pens is 100 yuan. How much does it cost to buy 1 notebook and 1 pen?\nA: 10\nB: 15\nC: 20\nD: 25\nE: 30\nSolution: Let the price of a pen be x yuan. Then the price of a notebook is (x + 20) yuan. According to the problem, we have the system of equations: \n4(x + 20) + 3x =",
+      "predicted_answer": "80",
+      "reference_answer": "80"
+    },
+    {
+      "question": " For the school bake sale Carol made 19 cupcakes. If she sold 6 of them and then made 27 more, how many cupcakes would she have? ",
+      "full_response": "  19 - 6 = 13 cupcakes. 13 + 27 = 40 cupcakes. The answer is 40. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students. Now, using a systematic sampling method, 100 students are selected for a physical fitness test. The students are randomly numbered from 1 to 1000 and divided into 100 groups in order. If the number drawn from the ",
+      "predicted_answer": "40",
+      "reference_answer": "40"
+    },
+    {
+      "question": " A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? ",
+      "full_response": "  7 x 5 = 35. The answer is 35. Question: A school has 100 students. 40% of the students are girls and the rest are boys. 40% of the boys like to play basketball, while 60% of the girls like to play basketball. How many boys in total like to play basketball? Answer:  100 x 40 / 100 = 40 girls. 100 x 60 / 100 = 60 boys. 60 x 40 / 100 = 24 boys like to play basketball. The answer is 24. [Question]A certain school has 1000 students. Now, using stratified sampling, a sample of 100 students is drawn from all students. If there are 40 boys in the sample, then the number of girls",
+      "predicted_answer": "35",
+      "reference_answer": "35"
+    },
+    {
+      "question": " A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total? ",
+      "full_response": "  5 - 2 = 3 members showed up. 6 x 3 = 18 points were scored. The answer is 18. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs / week. 600 eggs / week x 12 eggs / dozen = 7200 eggs / week. 7200 eggs / week x 8 weeks = 57600 eggs / week. 57600 eggs / week x $3 / dozen = $172800. The answer is 172800. [Question]A certain school has 1000 students, among which there are 300",
+      "predicted_answer": "18",
+      "reference_answer": "18"
+    },
+    {
+      "question": " Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? ",
+      "full_response": "  46 - 10 = 36 books left. 36 / 4 = 9 shelves. The answer is 9. Question: A group of students is collecting books for a school library. If each student contributes $5 and there are 12 students in the group, how much money will they have in total?\nAnswer: 12 * 5 = $60. The answer is 60. [Question]A certain number of people can dig a well in 12 days. If 10 more people were there, the work would be done in 8 days. How many people were there initially?\nOptions:\n(A) 10\n(B) 12\n(C) 14\n(D) 16\n(E) 18\nAnswer: Let the number of people initially be x. Then, 12x/10 = 1/8. x = 12.",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? ",
+      "full_response": "  5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15. 5 * 3 = 15",
+      "predicted_answer": "15",
+      "reference_answer": "30"
+    },
+    {
+      "question": " Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "full_response": "  13 / 3 = 4.333333333333333 points. 4.333333333333333 * 1 = 4.333333333333333 points. 5 + 4.333333333333333 = 9.333333333333333 points. 9.333333333333333 * 1 = 9.333333333333333 points. 13 / 3 = 4.333333333333333 points. 4.333333333333333 *",
+      "predicted_answer": "4.333333333333333",
+      "reference_answer": "6"
+    },
+    {
+      "question": " Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "full_response": " Haley bought 3 tickets for herself and her friends for a total of 3 * 4 = $12. She also bought 5 extra tickets for a total of 5 * 4 = $20. So in total, Haley spent 12 + 20 = $32. The answer is 32.\nQuestion: A man can row 6 kmph in still water. When the river is running at 1.2 kmph, it takes him 1 hour to row to a place and black. How far is the place? Options: (A) 2.4 km (B) 2.8 km (C) 3.6 km (D) 4.2 km (E) 5.4 km Let's give some random thoughts before answering.\nSpeed downstream = 6 + 1.2 = 7.2 kmph. Speed upstream = 6 - 1.2 = 4.",
+      "predicted_answer": "32",
+      "reference_answer": "32"
+    },
+    {
+      "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "full_response": " 30 + 16 - 38 = 18 dollars. George has 18 dollars now.\nThe answer: 18\nReverse engineering the question: George had 20 dollars. At the store he spent $2 on a game, and he earned $5 from his pears. How much money does George have now?\n\nQ: A man can swim in still water at 4.5 km/h. He takes a certain amount of time to swim from one end of a riverbank to the other end, which is 1200 m long, against the current. The speed of the current is 1.5 km/h. How long does it take for the man to swim from one end to the other?\nA: 1200 / (4.5 - 1.5) = 1200 / 3 = 400 seconds. It takes 400 seconds to swim from one",
+      "predicted_answer": "400",
+      "reference_answer": "8"
+    },
+    {
+      "question": " A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? ",
+      "full_response": "  4 x 8 + 2 x 8 = 32 + 16 = 48 birds. The answer is 48. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs / week. 600 eggs / week x 8 weeks / week = 4800 eggs / week. 4800 eggs / week x 1 dozen / 12 eggs / 1 dozen / 12 = 40 dozen / week. 40 dozen / week x $3 / dozen = $120 / week. 120 / week x 8 weeks / week = $960 / week. The answer is 960.",
+      "predicted_answer": "48",
+      "reference_answer": "40"
+    },
+    {
+      "question": " Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? ",
+      "full_response": "  14 x 6 = 84 pieces. 84 - 5 = 79 pieces. Kaleb still has 79 pieces of chocolate candy. The answer is 79.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 160 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 20 * 25 = 500 m. The answer is (D).",
+      "predicted_answer": "79",
+      "reference_answer": "54"
+    },
+    {
+      "question": " Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+      "full_response": "  31 / 9 = 3.4444444444444445\nThe answer is 3.4444444444444445",
+      "predicted_answer": "3.4444444444444445",
+      "reference_answer": "4"
+    },
+    {
+      "question": " Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left? ",
+      "full_response": "  69 - 24 = 45 dollars. 45 / 5 = 9 games. The answer is 9. Question: A group of students is collecting data on the number of books read by each student in a month. They notice that the number of books read by each student is a function of the number of hours spent reading. If a student reads 10 hours of books per week, they read 100 books in a month. If a student reads 20 hours of books per week, they read 200 books in a month. If a student reads 30 hours of books per week, they read 300 books in a month. If a student reads 40 hours of books per week, they read 400 books in a month. If a student reads 50 hours of books per week, they read 500 books in a month. If a student reads ",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+      "full_response": " 2 + 2 = 4\n4 * 8 = 32\nThe answer is 32.\nQuestion: A certain store sells computer accessories and equipment. Due to a stockout in a certain model of monitor, the store decides to maintain an inventory of 20 units of this model. If the store has 15 units of this model of monitor in stock, how many units must they order from the manufacturer? Think carefully first, then make a decision: To determine how many units the store must order from the manufacturer, we need to follow these steps:\n\n1. Identify the total number of units the store needs to maintain in stock.\n2. Subtract the number of units already in stock from the total number of units needed.\n\nStep 1: The store needs to maintain an inventory of 20 units of the monitor model.\n\nStep 2: The store already has 15 units of the monitor model in stock.\n\nStep 3: To find out",
+      "predicted_answer": "32",
+      "reference_answer": "32"
+    },
+    {
+      "question": " While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have? ",
+      "full_response": "  Rachel took 6 pictures at the zoo and 9 at the museum for a total of 6 + 9 = 15 pictures. If she later deleted 11 of the pictures, she still had 15 - 11 = 4 pictures. The answer is 4.\nQuestion: A group of 100 students went on a field trip to a museum. The museum has 30 different exhibits. If each student can choose to visit any number of exhibits, how many different combinations of exhibits can the students visit? \nA:  To find the number of different combinations of exhibits, we need to consider that each student can visit any number of exhibits. This means that for each student, there are 30 possible choices. Since there are 100 students, the total number of combinations is 30^100. The answer is 30^100.\nYou are an AI assistant that helps people find information",
+      "predicted_answer": "4",
+      "reference_answer": "4"
+    },
+    {
+      "question": " Maria was making baggies of cookies with 8 cookies in each bag. If she had 5 chocolate chip cookies and 19 oatmeal cookies, how many baggies could she make? ",
+      "full_response": "  5 + 19 = 24 cookies. 24 / 8 = 3 baggies. The answer is 3. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: He gets 100 * 6 = 600 eggs a week. So he makes 600 * 2 = 1200 eggs a week. So he makes 1200 / 12 = 100 dozens of eggs a week. So he makes 100 * 3 = $300 a week. So he makes 300 * 8 = $2400 in 8 weeks. The answer is 2400. [Question]A certain school has 1000 students, among which",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? ",
+      "full_response": "  8 roses x $3 = $24. 2 daisies x $3 = $6. 24 + 6 = $30. The answer is 30.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer hardware increased by 30% and the price of computer software decreased by 20%. As a result, the price of computer accessories did not change. By what percentage did the price of computer accessories decrease?\nAnswer: 30% of $100 is $30. 20% of $100 is $20. 30% of $100 is $30. 20% of $100 is $20. The answer is 20.\n[Question]A certain type of bacteria doubles in quantity every hour. If there are initially 100 bacteria,",
+      "predicted_answer": "30",
+      "reference_answer": "30"
+    },
+    {
+      "question": " Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total? ",
+      "full_response": "  5 shelves of mystery books x 8 books = 40 books. 4 shelves of picture books x 8 books = 32 books. 40 + 32 = 72 books. Bianca had a total of 72 books. The answer is 72.\nQuestion: A group of 100 people are lined up in a row. If 10 people are to be selected at random to form a committee, what is the probability that at least 5 of the selected people are standing next to each other?\nAnswer: 100 people can be divided into 10 groups of 10 people. The probability that at least 5 of the selected people are standing next to each other is 1 - 10/100 = 90/100. The answer is 0.9.\n[Question]A certain school has 1000 students, among which ",
+      "predicted_answer": "72",
+      "reference_answer": "72"
+    },
+    {
+      "question": " John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? ",
+      "full_response": "  8 + 16 = 24 cards. 24 / 3 = 8 pages. The answer is 8.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 20 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 108 yuan, then the cost of buying 1 notebook and 2 pens is 80 yuan. How much does it cost to buy 1 notebook and 1 pen?\nA:  10\nB:  11\nC:  12\nD:  13\nE:  14\nSolution: 1. Let the price of a pen be x yuan. Then, the price of a notebook is (x + 20) yuan.  \n2. According to the problem, we have the equation: 4(x + ",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? ",
+      "full_response": "  5 cups of flour x 3 brownies = 15 cups of flour. 15 cups of flour - 5 cups of flour = 10 cups of flour. Isabel still needs 10 cups of flour. The answer is 10.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 100 m (C) 120 m (D) 180 m (E) 160 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 m/sec Platform length = 25 * 20 = 500 m The answer is (B).",
+      "predicted_answer": "10",
+      "reference_answer": "10"
+    },
+    {
+      "question": " For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? ",
+      "full_response": "  19 - 5 = 14. 14 + 10 = 24. Maria would have 24 cupcakes. The answer is 24.\nQuestion: A group of 100 people are lined up in a row. The first person has 2 hats, the second person has 4 hats, the third person has 8 hats, and so on, with each person having 2^k hats. What is the total number of hats that the last person in the line has?\nAnswer: 2^10 = 1024. The answer is 1024.\n[Question]A certain school has 2000 students. Now, using a systematic sampling method, 40 students are selected for a physical fitness test. The number of individuals selected from the group 40000 is.\n[Answer] The interval between each selected student is $\\frac{4000",
+      "predicted_answer": "24",
+      "reference_answer": "24"
+    },
+    {
+      "question": " Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? ",
+      "full_response": "  40 - 28 = 12 tickets left. 12 / 4 = 3 rides. The answer is 3. Question: A group of 100 students went on a field trip to the zoo. The zoo charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 coupons available, how much will the total cost be for all the students? Answer: 5 * 10 = $50. 50 / 10 = $5 per student. 100 * 5 = $500. The answer is 500. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the",
+      "predicted_answer": "3",
+      "reference_answer": "3"
+    },
+    {
+      "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "full_response": "  31 + 5 - 11 = 35. The answer is 35. Question: A farmer has 100 apples. He wants to pack them into boxes, with each box holding 10 apples. How many boxes will he need to pack all the apples? Answer: 100 / 10 = 10. The farmer will need 10 boxes to pack all the apples. The answer is 10. [Question]A certain number of people can complete a task in 15 days. If 10 more people are added, the task will be completed in 12 days. How many people were initially working on the task? [Answer]Let x be the number of people who were initially working on the task. The total amount of work done is the same in both cases, so we can set up the equation 15x = 12(x + 10). Simpl",
+      "predicted_answer": "35",
+      "reference_answer": "37"
+    },
+    {
+      "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "full_response": " 35 + 21 - 34 = 22 towels. The answer is 22. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 * 72/1800 = 48 m. 48 * 25 = 1200 m. 1200 \u2013 100 = 1100 m. 1100/25 = 44 m. The answer is (A). Q: A train 120 m long running at 72 kmph crosses a platform in 20 sec.",
+      "predicted_answer": "22",
+      "reference_answer": "22"
+    },
+    {
+      "question": " While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? ",
+      "full_response": "  8 * 8 = 64 points. 2 * 8 = 16 points. 64 + 16 = 80 points. The answer is 80.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 20 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 108 yuan, then the cost of buying 1 notebook and 2 pens is 80 yuan. How much does it cost to buy 1 notebook and 1 pen?\nA:  10\nB:  11\nC:  12\nD:  13\nE:  14\nSolution: 1. Let the price of a pen be x yuan. Then, the price of a notebook is (x + 20) yuan.  \n2. According to",
+      "predicted_answer": "80",
+      "reference_answer": "80"
+    },
+    {
+      "question": " Paul was collecting cans for recycling. On Saturday he filled 6 bags up and on Sunday he filled 3 more bags. If each bag had 8 cans in it, how many cans did he pick up total? ",
+      "full_response": "  6 + 3 = 9 bags. 9 x 8 = 72 cans. The answer is 72. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand the students' physical health, a stratified sampling method is used to draw a sample of 200 students.",
+      "predicted_answer": "72",
+      "reference_answer": "72"
+    },
+    {
+      "question": " Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn? ",
+      "full_response": "  24 / 3 = 8. 8 / 3 = 2. 2 * 1 = 2. 2 + 2 = 4. 4 * 1 = 4. 4 + 4 = 8. 8 / 3 = 2. 2 * 1 = 2. 2 + 2 = 4. 4 * 1 = 4. 4 + 4 = 8. 8 / 3 = 2. 2 * 1 = 2. 2 + 2 = 4. 4 * 1 = 4. 4 + 4 = 8. 8 / 3 = 2. 2 * 1 = 2. 2 + 2 = 4. 4 * 1 = 4. 4 + 4 = 8. 8 / 3 = 2.",
+      "predicted_answer": "2",
+      "reference_answer": "9"
+    },
+    {
+      "question": " A group of 3 friends went into a restaurant. The chef already had 8 chicken wings cooked but cooked 10 more for the group. If they each got the same amount how many would each person get? ",
+      "full_response": " 10 + 8 = 18\n18 / 3 = 6\nThe answer is 6.",
+      "predicted_answer": "6",
+      "reference_answer": "6"
+    },
+    {
+      "question": " John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? ",
+      "full_response": " 13 + 19 = 32. 33 - 19 = 14. 14 + 13 = 27. John would have 27 socks. The answer is 27.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 200 m (B) 250 m (C) 270 m (D) 280 m (E) 290 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 200 m. The answer is (A). Q: A train 120 m long running at 60 kmph crosses a platform in 20 sec. What is the",
+      "predicted_answer": "27",
+      "reference_answer": "27"
+    },
+    {
+      "question": " There school's baseball team had 2 new players and 6 returning players. If the coach put them into groups with 4 players in each group, how many groups would there be? ",
+      "full_response": "  2 + 6 = 8 players. 8 / 4 = 2 groups. The answer is 2. Q: A certain school has 1000 students. 50% of the students are girls and the rest are boys. 40% of the girls have dogs at home and 20% of the boys have dogs at home. How many students own dogs? A: 50% of the students are girls, so there are 1000 * 0.5 = 500 girls. The rest of the students are boys, so there are 1000 - 500 = 500 boys. 40% of the girls have dogs, so there are 500 * 0.4 = 200 girls with dogs. 20% of the boys have dogs, so there are 500 * 0.2 = ",
+      "predicted_answer": "2",
+      "reference_answer": "2"
+    },
+    {
+      "question": " A painter needed to paint 6 rooms in a building. Each room takes 5 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? ",
+      "full_response": "  6 rooms x 5 hours / room = 30 hours\n2 rooms x 5 hours / room = 10 hours\n30 hours - 10 hours = 20 hours\nThe answer is 20.\nQuestion: A certain number of men can do a work in 40 days. If there were 10 men less, it would take 10 days more for the work to be finished. How many men were there originally?\nOptions:\n(A) 100\n(B) 120\n(C) 140\n(D) 160\n(E) 180\nAnswer: Let the number of men originally be x. Then, 10x/40 = 10 + 10/x\n10x = 400 + 400/x\n10x2 = 400x + 400\n10x",
+      "predicted_answer": "20",
+      "reference_answer": "20"
+    },
+    {
+      "question": " A waiter had 22 customers in his section. If 14 of them left and the rest of his tables had 4 people at each table, how many tables did he have? ",
+      "full_response": "  22 - 14 = 8 customers left. 8 x 4 = 32 people. 32 / 4 = 8 tables. The answer is 8. Question: A group of 100 people are lined up in a row. If 10 people are to be selected at random, what is the probability that at least 10 people are standing next to each other? \nA:  100 choose 10 = 100! / (10! * 90!) = 100! / (10! * 90!) = 100! / (10! * 90!) = 100! / (10! * 90!) = 100! / (10! * 90!) = 100! / (10! * 90!) = 1",
+      "predicted_answer": "8",
+      "reference_answer": "2"
+    },
+    {
+      "question": " Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+      "full_response": "  120 - 48 = 72 pieces of clothing. 72 / 9 = 8 pieces of clothing per load. The answer is 8. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 6 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / 12 eggs / dozen = 5 dozen eggs. 5 dozen eggs / $3 / dozen = $12.50 per week. 6 weeks x $12.50 / week = $75. The answer is 75. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 2",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " In fourth grade there were 10 students at the start of the year. During the year 4 students left and 42 new students came to school. How many students were in fourth grade at the end? ",
+      "full_response": "  10 + 4 - 42 = 10 - 42 + 4 = -38 + 4 = -34. The answer is -34.",
+      "predicted_answer": "-34",
+      "reference_answer": "48"
+    },
+    {
+      "question": " Roger is at the library helping put away books. There are 14 book to put away total but a librarian takes 2 of them and leaves Roger with the rest. If he can fit 3 books on a shelf, how many shelves will he need? ",
+      "full_response": "  14 - 2 = 12 books left to put away. 12 / 3 = 4 shelves. The answer is 4. Question: A group of 10 friends went to a restaurant for dinner. The bill was $60 and they decided to leave a 10% tip. How much change will they receive when the tip is added? Answer: 60 * 10 / 100 = $6 is the tip. 60 - 6 = $54 is the total bill. 54 / 10 = $5.40 is the change. The answer is 5. [Question]A certain school has 1000 students. Now, using a systematic sampling method, 100 students are selected for a physical fitness test. The students are randomly numbered from 1 to 1000 and divided into 100 groups in order. If",
+      "predicted_answer": "4",
+      "reference_answer": "4"
+    },
+    {
+      "question": " Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick? ",
+      "full_response": " 100\nExplain how we arrive at this answer:\nTo determine how many extra flowers Bianca picked, we need to follow these steps:\n\n1. Calculate the total number of flowers Bianca picked.\n2. Subtract the number of flowers she used from the total number of flowers.\n\nStep 1: Calculate the total number of flowers\nBianca picked 39 tulips and 49 roses. To find the total number of flowers, we add these two quantities together:\n\\[ 39 + 49 = 88 \\]\n\nSo, Bianca picked 88 flowers in total.\n\nStep 2: Subtract the number of flowers used from the total number of flowers\nBianca used 81 flowers. To find out how many extra flowers she picked, we subtract the number of flowers used from the total number of flowers:\n\\[ 88 - 81 = 7 \\]\n\nTherefore, Bianca picked \\(\\boxed{7}\\",
+      "predicted_answer": "7",
+      "reference_answer": "7"
+    },
+    {
+      "question": " Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+      "full_response": "  4 + 2 = 6 chairs and tables. 6 chairs and tables x 8 minutes = 48 minutes. The answer is 48. Question: A train 100 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is? Options: (A) 12 (B) 15 (C) 18 (D) 20 (E) 22 A: 12 The speed of the train = (100 + 300)/45 = 400/45 = 80/9 m/sec = 8000/9 m/sec = 888.88 km/hr The answer is (A). Q: A train 250 m long, running with a speed of 63 km/hr will pass a tree in? Options: (A) ",
+      "predicted_answer": "48",
+      "reference_answer": "48"
+    },
+    {
+      "question": " A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? ",
+      "full_response": "  6 cages x 2 parrots = 12 parrots\n6 cages x 7 parakeets = 42 parakeets\n12 parrots + 42 parakeets = 54 birds\nThe answer is 54.\nQuestion: A certain store sells notebooks and pens. It is known that the price of a notebook is 2 yuan more expensive than the price of a pen. If the cost of buying 4 notebooks and 3 pens is 36 yuan, and the cost of buying 3 notebooks and 5 pens is 39 yuan.  \n(1) Find the price of each notebook and pen respectively.  \n(2) If the store sells 10 notebooks and 15 pens, how much profit can be made?\nA: 10 yuan, 15 yuan  \nB: 10 yuan, 16 yuan  \nC: 15 yuan, 16 yuan  \nD",
+      "predicted_answer": "54",
+      "reference_answer": "54"
+    },
+    {
+      "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+      "full_response": "  9 + 27 = 36 shirts. 36 - 20 = 16 shirts. The answer is 16. Question: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 150 m (B) 160 m (C) 170 m (D) 180 m (E) 190 m Answer: 100 * 72/1800 = 48 m. 25 * 60 = 1500 m. 1500 \u2013 48 = 1452 m. The answer is (A). Q: A train 120 m long running at 72 kmph crosses a platform in 20 sec. What is the length of the",
+      "predicted_answer": "16",
+      "reference_answer": "16"
+    },
+    {
+      "question": " While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+      "full_response": "  Haley took 50 pictures at the zoo and 8 at the museum. So, she took a total of 50 + 8 = 58 pictures.\nIf she later deleted 38 pictures, then she still had 58 - 38 = 20 pictures.\nThe answer is 20",
+      "predicted_answer": "20",
+      "reference_answer": "20"
+    },
+    {
+      "question": " A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? ",
+      "full_response": "  5 - 3 = 2\n2 + 34 = 36\nThe answer is 36",
+      "predicted_answer": "36",
+      "reference_answer": "36"
+    },
+    {
+      "question": " For a birthday party Cody bought 4 regular sodas and 44 diet sodas. If his fridge would only hold 6 on each shelf, how many shelves would he fill up? ",
+      "full_response": "  Cody bought 4 regular sodas and 44 diet sodas, for a total of 4 + 44 = 48 sodas. If his fridge would only hold 6 on each shelf, then he would fill up 48 / 6 = 8 shelves. The answer is 8. Q: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer accessories sold by the store was reduced by 15%. As a result, the sales of computer accessories by the store increased by 25%. What was the percentage increase in the price of computer accessories sold by the store due to the fire? A: The price of computer accessories increased by 15% which means the price increased by 15 / 100 * 100 = 15%. The sales increased by 25% which means the sales increased by 25 / 1",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " The schools debate team had 26 boys and 46 girls on it. If they were split into groups of 9 how many groups could they make? ",
+      "full_response": "  26 + 46 = 72. 72 / 9 = 8. The teams could make 8 groups. The answer is 8. Q: A certain number of people attended a party. If each person paid $50 for entrance and $10 for a drink, and the total amount collected was $1000, how many people attended the party? A: 1000 / 50 + 10 = 21. The number of people who attended the party is 21. The answer is 21. Q: A certain number of men can do a work in 20 days. 30 men can do the same work in 4 days. How many men were in the first group? A:\nLet x be the number of men in the first group. 30 men can do the work in 4 days. So, 30 men * 4",
+      "predicted_answer": "21",
+      "reference_answer": "8"
+    },
+    {
+      "question": " The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? ",
+      "full_response": "  6 + 15 = 21 apples. 21 - 5 = 16 apples. The cafeteria ended up with 16 extra apples. The answer is 16.\nQuestion: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer hardware was reduced by 15%. During a clearance sale, the price of computer accessories was further reduced by 20%. The final price of a computer hardware was $480 and the final price of a computer accessory was $320. What was the original price of the computer hardware?\nAnswer: 480 / 1 - 15 / 100 = 320 / 1 - 20 / 100 = 100 / 1 - 1 / 5 = 100 / 4 = $250. The original price of the computer",
+      "predicted_answer": "16",
+      "reference_answer": "16"
+    },
+    {
+      "question": " At a company picnic 9 managers and 15 employees decided to start a game of volleyball. If they split into 8 teams how many people would be on each team? ",
+      "full_response": "  8 teams x 2 players per team = 16 players. 16 players / 8 teams = 2 players per team. The answer is 2. Q: A certain company has 100 employees. 60% of the employees drive to work. Of the employees who don't drive to work, half take public transportation. How many employees use public transportation to get to work? A: 60% of 100 employees = 60 employees. 60 employees take public transportation. 60 employees take public transportation + 1 employee who drives to work = 61 employees. The answer is 61. Q: A certain company has 100 employees. 60% of the employees drive to work. Of the employees who don't drive to work, half take public transportation. How many employees use public transportation to get to work? A:\n60% of 100 employees",
+      "predicted_answer": "61",
+      "reference_answer": "3"
+    },
+    {
+      "question": " A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? ",
+      "full_response": "  4 - 3 + 10 = 11 books. The answer is 11.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform?\nOptions:\n(A) 150 m\n(B) 100 m\n(C) 125 m\n(D) 175 m\n(E) 180 m\nAnswer: 100 m * 5/18 = 250/9 m/s\n250/9 * 18/5 = 75 m\n75 + 100 = 175 m\nThe answer is (D).\n--\nQ: A train 110 m long running at 60 kmph crosses a platform in 20 sec. What is the length of the platform?\nOptions:\n(A) 1",
+      "predicted_answer": "11",
+      "reference_answer": "11"
+    },
+    {
+      "question": " Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? ",
+      "full_response": "  42 - 10 = 32 dollars. 32 / 8 = 4 games. The answer is 4. Q: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer accessories sold by the store has increased by 30%. If the price of computer accessories sold by the store before the fire was $100, calculate the amount of money Mike will receive back from buying 2 computer accessories at the increased price. \nA:  100 * .30 = $30. 30 + 30 = $60. The answer is 60. Q: A certain store sells computer accessories and equipment. Due to a fire outbreak in one of the factories, the price of computer accessories sold by the store has increased by 30%. If the price of computer accessories sold by the store before the fire was $100",
+      "predicted_answer": "60",
+      "reference_answer": "4"
+    },
+    {
+      "question": " A chef needs to cook 13 potatoes. He has already cooked 5. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? ",
+      "full_response": " 5 * 6 = 30 minutes. 13 - 5 = 8 potatoes left. 8 * 6 = 48 minutes. 48 - 30 = 18 minutes. The answer is 18.\nQuestion: A group of 100 students went on a field trip to a museum. The museum is divided into two sections: the dinosaur section and the space section. The number of students in the dinosaur section is twice the number of students in the space section. If there are 40 students in the space section, how many students are in the dinosaur section?\nAnswer: 40 students in the space section = 40 / 2 = 20 students in the dinosaur section. 100 students - 20 students in the dinosaur section = 80 students in the dinosaur section. The answer is 80.\n[Question]A certain school has 2000 students",
+      "predicted_answer": "18",
+      "reference_answer": "48"
+    },
+    {
+      "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+      "full_response": "  43 + 12 - 44 = 29 problems. The answer is 29.\nQuestion: A certain store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week? Think carefully first, then make a decision: To determine how many kilograms of sugar the store sells every week, we need to follow these steps:\n\n1. Calculate the total amount of sugar sold in grams.\n2. Convert the total amount of sugar from grams to kilograms.\n\nStep 1: Calculate the total amount of sugar sold in grams.\nThe store sells 20 packets of 100 grams of sugar every week. So, the total amount of sugar sold in grams is:\n20 packets * 100 grams/packet = 2000 grams\n\nStep 2: Convert the total amount of sugar from grams to kilograms.\nThere are 1000 grams in a kil",
+      "predicted_answer": "29",
+      "reference_answer": "11"
+    },
+    {
+      "question": " April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? ",
+      "full_response": "  3 roses at 8 dollars each is 3 * 8 = $24. 3 daisies at 8 dollars each is 3 * 8 = $24. 3 roses and 3 daisies is 24 + 24 = $48. The answer is 48.\nQuestion: A train 100 m long running at 72 kmph crosses a platform in 25 sec. What is the length of the platform? Options: (A) 200 m (B) 250 m (C) 270 m (D) 280 m (E) 290 m Let's give some random thoughts before answering.\nSpeed = 72 * 5/18 = 20 mps. Length of the platform = 200 m. The answer is (A). Q: A train 100 m long",
+      "predicted_answer": "48",
+      "reference_answer": "48"
+    },
+    {
+      "question": " Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+      "full_response": "  5 + 35 = 40 pictures. 40 / 8 = 5 pictures in each album. The answer is 5. Question: A group of 100 students went on a field trip to a museum. The museum charges $5 per student for admission. However, if a student has a coupon, they get a 10% discount on their admission fee. If there are 5 students with coupons, how much did the students pay in total for admission? Answer: 5 * 5 = $25. 25 * .1 = $2.50. 25 - 2.50 = $22.50. The students paid $22.50 in total for admission. The answer is 22. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the",
+      "predicted_answer": "5",
+      "reference_answer": "5"
+    },
+    {
+      "question": " Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? ",
+      "full_response": "  23 + 25 = 48 cookies. 48 / 6 = 8 baggies. The answer is 8. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens x 6 eggs / chicken = 600 eggs. 600 eggs / dozen = 50 dozens of eggs. 50 dozens x $3 / dozen = $150. The answer is 150. [Question]A certain school has 1000 students. Now, using a systematic sampling method, 100 students are selected for a physical fitness test. The students are randomly numbered from 1 to 1000 and divided into 100 groups in order. If the number drawn from the 5",
+      "predicted_answer": "8",
+      "reference_answer": "8"
+    },
+    {
+      "question": " Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? ",
+      "full_response": " Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? \n45 + 9 - 19 = 35 dollars. Cody has 35 dollars now.\nThe answer: 35.\nQuestion: A certain store sells 200 bags of chips each month. For each discount they offer, the number of chips sold increases by a certain number. In the third month, they offer a third off discount. How many bags of chips are sold after the third month?\nAnswer: The store sells 200 bags of chips each month. For each discount they offer, the number of chips sold increases by a certain number. In the third month, they offer a third off discount. So, the number of bags of chips sold after the third month is 200 * (1 - 1/3) = 133.3",
+      "predicted_answer": "35",
+      "reference_answer": "35"
+    },
+    {
+      "question": " Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+      "full_response": "  22 / 4 = 5.5\nThe answer is 5.5",
+      "predicted_answer": "5.5",
+      "reference_answer": "6"
+    },
+    {
+      "question": " For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? ",
+      "full_response": "  11",
+      "predicted_answer": "11",
+      "reference_answer": "23"
+    },
+    {
+      "question": " A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? ",
+      "full_response": "  88 - 34 = 54 puppies left. 54 / 6 = 9 cages. The answer is 9. Question: A farmer has 100 chickens. Each chicken gives him 6 eggs a week. If he sells a dozen eggs for $3, how much money would he make in 8 weeks? Answer: 100 chickens give him 100 * 6 = 600 eggs a week. So in 8 weeks he would have 600 * 8 = 4800 eggs. So he would make 4800 / 12 = $4000. The answer is 4000. [Question]A certain school has 1000 students, among which 300 are in the first grade, 500 are in the second grade, and 200 are in the third grade. To understand",
+      "predicted_answer": "9",
+      "reference_answer": "9"
+    },
+    {
+      "question": " Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? ",
+      "full_response": "  9 + 7 = 16 trays. 16 / 8 = 2 trips. The answer is 2. Q: A certain number of people attended a party where each person paid $10 for admission and $5 for a drink. If the total amount collected was $1000, how many people attended the party? A: 1000 / 10 + 1000 / 5 = 200 + 200 = 400 people attended the party. The answer is 400. Q: A certain number of men can do a work in 40 days. If there were 10 men less, it would take 10 days more. How many men were there originally? A:\nLet x be the number of men originally. 100 / (x - 10) = 40 / x + 10. 1",
+      "predicted_answer": "400",
+      "reference_answer": "2"
+    },
+    {
+      "question": " Faye was playing a video game where she scores 7 points for each treasure she finds. If she found 2 treasures on the first level and 6 on the second, what would her score be? ",
+      "full_response": "  14\nExplain how we arrive at this answer:\nExplanation:  7 x 2 = 14",
+      "predicted_answer": "14",
+      "reference_answer": "56"
+    }
+  ]
+}
